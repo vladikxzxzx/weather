@@ -1,0 +1,95 @@
+body{
+    background: #498CEC;
+    color: white;
+}
+.head{
+    margin-top: 80px;
+    margin-left: 100px;
+}
+#oneline{
+    display: flex;
+}
+#changecity{
+    font-size: 20px;
+    margin-top: -10px;
+    opacity: 0.6;
+    height: 30px;
+}
+.butt{
+    font-size: 20px;
+    margin-top: -10px;
+    opacity: 0.6;
+    height: 35px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+#myloc{
+    font-size: 20px;
+    margin-top: -5px;
+    cursor: pointer;
+    opacity: 0.6;
+}
+.iconloc{
+    margin-top: -10px;
+    height: 30px;
+    margin-left: 20px;
+}
+.center{
+    margin-left: 35%;
+    margin-top: 100px;
+}
+.line{
+    display: flex;
+}
+#wicon{
+    height: 100px;
+}
+#temperature{
+    font-size: 90px;
+    margin-top: 0px;
+    margin-left: 30px;;
+}
+#description{
+    margin-top: -60px;
+    font-size: 25px;
+    margin-left: 30px;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 200px;
+    margin-top: 150px;
+}
+.hl1, .hl2, .hl3, .hl4{
+    font-size: 20px;
+    opacity: 0.6;
+}
+#t1, #t2, #t3, #t4{
+    font-size: 25px;
+}
+@media (max-width: 626px) {
+    .butt{
+        width: 55px;
+    }
+    #oneline{
+        flex-wrap: wrap;
+    }
+    #myloc{
+        margin-top: 40px;
+    }
+    .iconloc{
+        margin-top: 35px;
+    }
+    .head, .center{
+        margin-left: 10px;
+    }
+    .footer{
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 75px;
+    }
+    .center{
+        margin-top: 50px;
+    }
+}
